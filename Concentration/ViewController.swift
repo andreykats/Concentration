@@ -6,7 +6,7 @@
 //  Copyright © 2018 Stanford University. All rights reserved.
 //
 
-// Lesson 1
+// Lesson 2
 
 import UIKit
 
