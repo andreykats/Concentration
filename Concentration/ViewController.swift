@@ -6,6 +6,8 @@
 //  Copyright © 2018 Stanford University. All rights reserved.
 //
 
+// Lesson 1
+
 import UIKit
 
 class ViewController: UIViewController {
