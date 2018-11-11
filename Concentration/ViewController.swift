@@ -30,6 +30,11 @@ class ViewController: UIViewController {
         }
     }
     
+    override func viewDidLoad() {
+        super .viewDidLoad()
+        cardButtons = cardButtons.shuffled()
+    }
+    
     func updateViewFromModel() {
         for index in cardButtons.indices {
             let button = cardButtons[index]
@@ -44,7 +49,7 @@ class ViewController: UIViewController {
         }
     }
     
-    var emojiChoices = ["🎃", "👻", "🦇", "👹", "💀", "👺", "😱", "🧟‍♂️", "🧛🏻‍♀️"]
+    var emojiChoices = ["🎃", "👻", "🦇", "👹", "💀", "😱", "🧟‍♂️", "🧛🏻‍♀️"]
     
     var emoji = [Int: String]()
     
@@ -52,7 +57,6 @@ class ViewController: UIViewController {
         if emoji[card.identifier] == nil, emojiChoices.count > 0 {
             let randomIndex = Int(arc4random_uniform(UInt32(emojiChoices.count)))
             emoji[card.identifier] = emojiChoices.remove(at: randomIndex)
-            
         }
         return emoji[card.identifier] ?? "?"
     }
