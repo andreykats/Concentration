@@ -12,6 +12,8 @@
 		55AC78052187407900499510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC78032187407900499510 /* Main.storyboard */; };
 		55AC78072187407A00499510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AC78062187407A00499510 /* Assets.xcassets */; };
 		55AC780A2187407A00499510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC78082187407A00499510 /* LaunchScreen.storyboard */; };
+		55B805DC2197519600AD761D /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B805DB2197519600AD761D /* Concentration.swift */; };
+		55B805DE2197531000AD761D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B805DD2197531000AD761D /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		55AC78062187407A00499510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AC78092187407A00499510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55AC780B2187407A00499510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B805DB2197519600AD761D /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		55B805DD2197531000AD761D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				55AC77FF2187407900499510 /* AppDelegate.swift */,
 				55AC78012187407900499510 /* ViewController.swift */,
+				55B805DB2197519600AD761D /* Concentration.swift */,
+				55B805DD2197531000AD761D /* Card.swift */,
 				55AC78032187407900499510 /* Main.storyboard */,
 				55AC78062187407A00499510 /* Assets.xcassets */,
 				55AC78082187407A00499510 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				55AC78022187407900499510 /* ViewController.swift in Sources */,
 				55AC78002187407900499510 /* AppDelegate.swift in Sources */,
+				55B805DC2197519600AD761D /* Concentration.swift in Sources */,
+				55B805DE2197531000AD761D /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
